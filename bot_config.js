@@ -1,11 +1,11 @@
 module.exports = { 
 
-wallethostname: "127.0.0.1",
-walletport : 5555,
-bot_token : "",
+wallethostname: process.env.HOST || "127.0.0.1",
+walletport : process.env.PORT || 5555,
+bot_token : process.env.BT || "",
 mongodburl: "mongodb://localhost:27017/avrioTipBot",
 
-owner_id : "",
+owner_id : process.env.OID || "",
 coin_name : "AVRIO",
 block_maturity_requirement : 40,
 coin_total_units : 4,
