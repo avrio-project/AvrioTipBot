@@ -1,8 +1,8 @@
-# Dero TipBot
+# Avrio TipBot
 
-### This Should work with Monero, and any fork that uses 12-decimals
+### This Should work with Avrio, and any fork that uses 4-decimals
 
-If you like to adjust to other forks that don't use 12-decimals, please change decimal value in `node-mdules/xmr-nodejs` or create a new module for your prefered coin
+If you like to adjust to other forks that don't use 4-decimals, please change decimal value in `node-mdules/xmr-nodejs` or create a new module for your prefered coin
 
 Or even better, adjust to have it a configurable option and create a PR :)
 
@@ -40,7 +40,7 @@ nvm install 8.11.2
 #### Instructions for bot_config.js
 ```
 wallethostname - your wallet RPC server hostname, default is already included
-walletport - your wallet RPC server port, default is already included
+walletport - your wallet RPC server port, default is 5555
 bot_token - get your token from https://discordapp.com/developers/applications/me (as of 22.05.2018). generate user for the bot, and click to reveal the Token
 mongodburl - whole url, on which mongoDB is listening on. Find it in your mongodb config
 
