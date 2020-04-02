@@ -1,7 +1,7 @@
 module.exports = { 
 
 wallethostname: process.env.HOST || "127.0.0.1",
-walletport : process.env.PORT || 5555,
+walletport : process.env.PORT || 8979,
 bot_token : process.env.BT || "",
 mongodburl: "mongodb://localhost:27017/avrioTipBot",
 
